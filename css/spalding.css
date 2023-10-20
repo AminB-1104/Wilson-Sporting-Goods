@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Istok+Web&family=Passion+One&family=Yantramanav:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.row{
+    --bs-gutter-x: 0 !important;
+}
+
+.row h1{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+}
+.about p{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+}
+
+.modal-info h1{
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: underline;
+}
+.modal-info strong{
+    font-family: 'Istok Web', sans-serif;
+}
+.modal-info h4{
+    font-family: 'Anton', sans-serif;
+}
+.modal-info p{
+    font-family: 'Istok Web', sans-serif;
+    font-size: large;
+}
+.modal-info h5{
+    font-family: 'Istok Web', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+
+.r1c1 img:hover{
+    content: url(../img/Spalding-Page/net1hover.jpg);
+}
+.r1c2 img:hover{
+    content: url(../img/Spalding-Page/rim1hover.jpg);
+}
+.r1c3 img:hover{
+    content: url(../img/Spalding-Page/hoop1hover.jpg);
+}
+
+
+.r2c1 img:hover{
+    content: url(../img/Spalding-Page/ball1hover.jpg);
+}
+.r2c2 img:hover{
+    content: url(../img/Spalding-Page/ball2hover.jpg);
+}
+.r2c3 img:hover{
+    content: url(../img/Spalding-Page/ball3hover.jpg);
+}
+
+
+.r3c1 img:hover{
+    content: url(../img/Spalding-Page/bag1hover.jpg);
+}
+.r3c2 img:hover{
+    content: url(../img/Spalding-Page/tune1hover.jpg);
+}
+.r3c3 img:hover{
+    content: url(../img/Spalding-Page/cart1hover.jpg);
+}

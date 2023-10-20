@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Istok+Web&family=Passion+One&family=Yantramanav:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#info div{
+    width: 70%;
+}
+
+#info h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+#info p{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+#history div{
+    width: 85%;
+}
+
+#history h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+#history p{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+#faqs .faqheading h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    margin-top: 3rem;
+}
+
+#faqs h2{
+    font-family: 'Anton', sans-serif;
+}
+#faqs h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#faqs p{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.accordiondiv{
+    width: 90% !important;
+}

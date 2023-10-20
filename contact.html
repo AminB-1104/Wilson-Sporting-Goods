@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/18e896fd73.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/navbar.css">
+<link rel="stylesheet" href="css/contact.css">
+<script src="alert.js"></script>
+
+<body>
+    <header class="txtHeader">
+        <marquee behavior="" direction="" class="header1Left">
+            Free Shipping on Orders Over $80
+        </marquee>
+        <ul class="header1Right">
+            <li><a href="aboutus.html#faqs">Help</a> </li>
+        </ul>
+    </header>
+    <header class="logoHeader">
+        <a href="index.html">
+            <img src="img/logo2.png" alt="logo">
+        </a>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-navcolor">
+        <div class="container-fluid">
+            <button class="navbar-toggler ms-auto me-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sports
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="CApage.html">CA Sports</a></li>
+                            <li><a class="dropdown-item" href="adidas.html">Adidas</a></li>
+                            <li><a class="dropdown-item" href="spalding.html">Spalding</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Clothes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="reebok.html">Reebok</a></li>
+                            <li><a class="dropdown-item" href="nike.html">Nike</a></li>
+                            <li><a class="dropdown-item" href="puma.html">Puma</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="comparison.html">Compare</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid contact mt-5 mb-5">
+
+        <div class="container-fluid text-center">
+            <h1>Contact Us Via Email</h1>
+        </div>
+        <form>
+            <div class="row mb-4">
+                <div class="col">
+                    <div class="form-outline">
+                        <label class="form-label" for="firstname">First name</label>
+                        <input type="text" id="firstname" class="form-control" />
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-outline">
+                        <label class="form-label" for="lastname">Last name</label>
+                        <input type="text" id="lastname" class="form-control" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col">
+                    <div class="form-outline">
+                        <label class="form-label" for="zipcode">Zip Code</label>
+                        <input type="text" id="zipcode" class="form-control" />
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- Number input -->
+                    <div class="form-outline">
+                        <label class="form-label" for="phone">Phone</label>
+                        <input type="text" id="phone" class="form-control" />
+                    </div>
+                </div>
+            </div>
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" for="email">Email</label>
+                <input type="email" id="email" class="form-control" />
+            </div>
+
+            <!-- Message input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4"></textarea>
+            </div>
+
+            <div class="d-flex justify-content-center align-items-center">
+                <button type="submit" class="btn px-5 py-2 btn-danger ms-auto me-auto mb-4" onclick="formValidation()">Send</button>
+            </div>
+        </form>
+    </div>
+
+    <hr class="hr-md-grey">
+
+    <div class="container-fluid map mt-5 mb-5 d-flex justify-content-center align-items-center flex-column">
+        <h1>You can find us here</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5939.317363453322!2d-87.62581900000002!3d41.900197!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33a410f0f77%3A0x827e9b80025985ed!2sWilson%20Chicago!5e0!3m2!1sen!2sus!4v1696250201175!5m2!1sen!2sus" style="border:0; width: 95%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-dark mt-5" style="background-color: rgb(233, 233, 233)">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            Wilson Sporting Goods
+                        </h6>
+                        <p>
+                            The Wilson Sporting Goods Company is an American sports equipment manufacturer based in
+                            Chicago, Illinois. The company has been a subsidiary of Finnish multinational company Amer
+                            Sports since 1989, and is, in turn, now under the Chinese company Anta Sports since 2019.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Sports Brands</h6>
+                        <p>
+                            <a href="CApage.html" class="text-dark">CA Sports</a>
+                        </p>
+                        <p>
+                            <a href="spalding.html" class="text-dark">Spalding</a>
+                        </p>
+                        <p>
+                            <a href="adidas.html" class="text-dark">Adidas</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">
+                            Clothes Brands
+                        </h6>
+                        <p>
+                            <a href="reebok.html" class="text-dark">Reebok</a>
+                        </p>
+                        <p>
+                            <a href="nike.html" class="text-dark">Nike</a>
+                        </p>
+                        <p>
+                            <a href="puma.html" class="text-dark">Puma</a>
+                        </p>
+                    </div>
+
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p><i class="fas fa-home mr-3"></i> Chicago, Illinois, U.S.</p>
+                        <p><i class="fas fa-envelope mr-3"></i> <a href="mailto:wilson-sports@gmail.com"
+                                class="text-dark"> wilson-sports@gmail.com </a></p>
+                        <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+
+            <hr class="my-3">
+
+            <!-- Section: Copyright -->
+            <section class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <!-- Copyright -->
+                        <div class="p-3">
+                            © 2019 Copyright:
+                            <a class="text-dark" href="#">Wilson-Sporting-Goods.com</a>
+                        </div>
+                        <!-- Copyright -->
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                        <!-- Facebook -->
+                        <a href="https://www.facebook.com/wilsonsportinggoods" target="_blank"
+                            class="btn btn-outline-dark btn-floating m-1" class="text-dark" role="button"><i
+                                class="fab fa-facebook-f"></i></a>
+
+                        <!-- Twitter -->
+                        <a href="https://twitter.com/WilsonSportingG" target="_blank"
+                            class="btn btn-outline-dark btn-floating m-1" class="text-dark" role="button"><i
+                                class="fab fa-twitter"></i></a>
+
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/wilson/" target="_blank"
+                            class="btn btn-outline-dark btn-floating m-1" class="text-dark" role="button"><i
+                                class="fab fa-instagram"></i></a>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+            </section>
+            <!-- Section: Copyright -->
+        </div>
+        <!-- Grid container -->
+    </footer>
+    <script src="js/alert.js"></script>
+</body>
+
+</html>

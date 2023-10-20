@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Istok+Web&family=Passion+One&family=Yantramanav:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.txtHeader {
+    display: flex;
+    height: 2em;
+    background-color: black;
+}
+
+.header1Left {
+    height: 100%;
+    display: flex;
+    /* justify-content: start; */
+    align-items: center;
+    width: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+
+
+.header1Right {
+    width: 5rem;
+    margin-left: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header1Right li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+.header1Right li a {
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.logoHeader {
+    height: 6.5em;
+    text-align: center;
+    background-color: rgb(233, 233, 233);
+}
+
+.logoHeader img {
+    height: 8em;
+    width: 9em;
+}
+
+.bg-white {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.hr-grey{
+    margin: 0 auto;
+    width: 98%;
+    height: 2px;
+    background-color: #181818;
+}
+.hr-md-grey{
+    margin: 0 auto;
+    width: 94%;
+    height: 2px;
+    background-color: #181818;
+}
+.bg-navcolor{
+    background-color: rgb(233, 233, 233)
+}
+.nav-item{
+    text-decoration: none;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 1em;
+    margin: 0 3em;
+}
+.navbar{
+    border-bottom: 2px solid grey;
+}

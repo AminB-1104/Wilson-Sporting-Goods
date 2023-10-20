@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Istok+Web&family=Passion+One&family=Yantramanav:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row h1{
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.selection1, .selection2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+
+td img{
+    width: 300px;
+    height: 300px;
+}
+.row h5{
+    font-family: '', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#des1, #des2{
+    font-family: 'Istok Web', sans-serif;
+}
+
+#price1, #price2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 19px;
+}
+#brand1, #brand2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}

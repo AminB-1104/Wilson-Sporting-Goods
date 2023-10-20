@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Istok+Web&family=Passion+One&family=Yantramanav:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact{
+    width: 60%;
+}
+
+.contact form label{
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 20px;
+    
+}
+
+.contact h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4.4rem;
+    font-weight: bold;
+}
+
+.btn{
+    margin: 0 auto;
+}
+
+.map h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}

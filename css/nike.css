@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Istok+Web&family=Passion+One&family=Yantramanav:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.row h1{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.about h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+}
+.about i{
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+}
+
+.row{
+    --bs-gutter-x: 0 !important;
+}
+
+
+.modal-info h1{
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: underline;
+}
+.modal-info strong{
+    font-family: 'Istok Web', sans-serif;
+}
+.modal-info h4{
+    font-family: 'Anton', sans-serif;
+}
+.modal-info p{
+    font-family: 'Istok Web', sans-serif;
+    font-size: large;
+}
+.modal-info h5{
+    font-family: 'Istok Web', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+.r1c1 img:hover{
+    content: url(../img/Nike-Page/men1hover.jpg);
+}
+
+.r1c2 img:hover{
+    content: url(../img/Nike-Page/men2hover.jpg);
+}
+.r1c3 img:hover{
+    content: url(../img/Nike-Page/men3hover.jpg);
+}
+
+.r2c1 img:hover{
+    content: url(../img/Nike-Page/shoes1hover.jpg);
+}
+.r2c2 img:hover{
+    content: url(../img/Nike-Page/shoes2hover.jpg);
+}
+.r2c3 img:hover{
+    content: url(../img/Nike-Page/shoes3hover.jpg);
+}
+
+.r3c1 img:hover{
+    content: url(../img/Nike-Page/girl1hover.jpg);
+}
+.r3c2 img:hover{
+    content: url(../img/Nike-Page/girl2hover.jpg);
+}
+.r3c3 img:hover{
+    content: url(../img/Nike-Page/girl3hover.jpg);
+}
